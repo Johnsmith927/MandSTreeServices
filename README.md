@@ -41,10 +41,16 @@
 ## Key Features
 
 **Auto-rotating hero slideshow** (3 photos, 5 seconds each)
+
 **About section with rotating photos** (3 photos, 4 seconds each)
+
 **Real work photos in service descriptions**
+
 **6-photo gallery preview** on homepage
+
 **Big stats display** (5.0 rating, 24/7, etc.)
+
 **Specific service descriptions** with real details
+
 **Mobile responsive** - works perfectly on all devices
 **Fast loading** - optimized CSS and JavaScript
