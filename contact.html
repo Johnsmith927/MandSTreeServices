@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Contact M and S Tree Care in Pittsburgh, PA for free estimates. Call (412) 689-1966 or request a quote online. Professional tree care services available 24/7.">
+    <title>Contact Us | M and S Tree Care | Free Estimates</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open Sans:wght@400;600;700&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="site-header">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <h1><a href="index.html">M and S Tree Care</a></h1>
+                    <p class="tagline">Pittsburgh Tree Service Since 2015</p>
+                </div>
+                <button class="menu-toggle" onclick="toggleMenu()" aria-label="Toggle menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+                <nav class="main-nav">
+                    <ul id="nav-menu">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="gallery.html">Our Work</a></li>
+                        <li><a href="testimonials.html">Reviews (151)</a></li>
+                        <li><a href="contact.html" class="active">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <!-- Page Hero -->
+    <section class="page-hero">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <div class="container">
+                <h1 class="page-title">Contact Us</h1>
+                <p class="page-subtitle">Get your free estimate today - we're here to help 24/7!</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section style="padding: 5rem 0;">
+        <div class="container">
+            <div class="contact-section">
+                <!-- Contact Form -->
+                <div class="contact-form">
+                    <h2 style="margin-bottom: 1.5rem;">Request a Free Estimate</h2>
+                    
+                    <!-- IMPORTANT: Replace YOUR_FORM_ID with your actual Formspree ID -->
+                    <!-- Get your free form at: https://formspree.io -->
+                    <form id="contact-form" action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+                        <div class="form-group">
+                            <label for="name">Full Name *</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="phone">Phone Number *</label>
+                            <input type="tel" id="phone" name="phone" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email">Email Address</label>
+                            <input type="email" id="email" name="_replyto">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="address">Property Address *</label>
+                            <input type="text" id="address" name="address" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="service">Service Needed *</label>
+                            <select id="service" name="service" required>
+                                <option value="">-- Select a Service --</option>
+                                <option value="tree-removal">Tree Removal</option>
+                                <option value="tree-trimming">Tree Trimming</option>
+                                <option value="stump-grinding">Stump Grinding</option>
+                                <option value="emergency">Emergency Service</option>
+                                <option value="commercial">Commercial Services</option>
+                                <option value="other">Other / Multiple Services</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="message">Project Details</label>
+                            <textarea id="message" name="message" placeholder="Tell us about your project..."></textarea>
+                        </div>
+
+                        <input type="hidden" name="_subject" value="New Estimate Request from Website">
+                        <input type="hidden" name="_next" value="thank-you.html">
+
+                        <button type="submit" id="submit-btn" class="btn btn-primary" style="width: 100%;">
+                            <i class="fas fa-paper-plane"></i>
+                            <span id="btn-text">Send Request</span>
+                        </button>
+
+                        <div id="form-status" style="margin-top: 1rem; text-align: center; display: none;"></div>
+
+                        <p style="font-size: 0.9rem; color: var(--text-light); margin-top: 1rem; text-align: center;">
+                            * Required fields. We'll respond quickly!<br>
+                        </p>
+                    </form>
+                </div>
+
+                <!-- Contact Info -->
+                <div class="contact-info-section">
+                    <h3>Get In Touch</h3>
+                    <p style="margin-bottom: 2rem; line-height: 1.8;">We're here to answer your questions and provide free estimates for all tree care services. Available 24/7 for emergencies!</p>
+
+                    <ul class="contact-info-list">
+                        <li>
+                            <i class="fas fa-phone"></i>
+                            <div>
+                                <strong>Phone</strong><br>
+                                <a href="tel:+14126891966">(412) 689-1966</a><br>
+                                <span style="font-size: 0.9rem; color: var(--text-light);">Call or text anytime - we're available 24/7</span>
+                            </div>
+                        </li>
+
+                        <li>
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div>
+                                <strong>Address</strong><br>
+                                5680 Koeffler Dr<br>
+                                Pittsburgh, PA 15236
+                            </div>
+                        </li>
+
+                        <li>
+                            <i class="fas fa-clock"></i>
+                            <div>
+                                <strong>Availability</strong><br>
+                                24 hours a day, 7 days a week<br>
+                                <span style="font-size: 0.9rem; color: var(--text-light);">Emergency services available any time</span>
+                            </div>
+                        </li>
+
+                        <li>
+                            <i class="fas fa-map-pin"></i>
+                            <div>
+                                <strong>Service Area</strong><br>
+                                Pittsburgh, Bethel Park, Mount Lebanon,<br>
+                                Upper St. Clair, and surrounding areas
+                            </div>
+                        </li>
+                    </ul>
+
+                    <div class="cta-box" style="margin-top: 2rem;">
+                        <h4 style="color: white; margin-bottom: 1rem;">24/7 Emergency Tree Service</h4>
+                        <p style="margin-bottom: 1rem;">Storm damage? Fallen tree? We're available around the clock for emergencies.</p>
+                        <a href="tel:+14126891966" class="btn" style="background: white; color: var(--secondary-color); border-color: white;">
+                            <i class="fas fa-exclamation-triangle"></i>
+                            Emergency: (412) 689-1966
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Map Section -->
+    <section class="section-alt" style="padding: 5rem 0;">
+        <div class="container">
+            <div class="section-header">
+                <h2>Our Service Area</h2>
+                <p class="section-subtitle">Proudly serving Pittsburgh and surrounding communities</p>
+            </div>
+
+            <div class="map-container">
+                <!-- Google Maps embed for 5680 Koeffler Dr, Pittsburgh, PA 15236 -->
+                <iframe 
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3036.8!2d-79.97!3d40.35!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8834f3e4a5c7d1b9%3A0x6c8e3a0c8f5c1d6e!2s5680%20Koeffler%20Dr%2C%20Pittsburgh%2C%20PA%2015236!5e0!3m2!1sen!2sus!4v1234567890123!5m2!1sen!2sus"
+                    allowfullscreen="" 
+                    loading="lazy" 
+                    referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+            </div>
+
+            <div style="margin-top: 3rem; text-align: center;">
+                <h3 style="margin-bottom: 1.5rem;">Areas We Serve</h3>
+                <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1.5rem; max-width: 900px; margin: 0 auto;">
+                    <div>
+                        <ul style="list-style: none; text-align: center;">
+                            <li style="padding: 0.5rem 0;"><i class="fas fa-check" style="color: var(--primary-color); margin-right: 0.5rem;"></i> Pittsburgh</li>
+                            <li style="padding: 0.5rem 0;"><i class="fas fa-check" style="color: var(--primary-color); margin-right: 0.5rem;"></i> Bethel Park</li>
+                            <li style="padding: 0.5rem 0;"><i class="fas fa-check" style="color: var(--primary-color); margin-right: 0.5rem;"></i> Mount Lebanon</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <ul style="list-style: none; text-align: center;">
+                            <li style="padding: 0.5rem 0;"><i class="fas fa-check" style="color: var(--primary-color); margin-right: 0.5rem;"></i> Upper St. Clair</li>
+                            <li style="padding: 0.5rem 0;"><i class="fas fa-check" style="color: var(--primary-color); margin-right: 0.5rem;"></i> South Park</li>
+                            <li style="padding: 0.5rem 0;"><i class="fas fa-check" style="color: var(--primary-color); margin-right: 0.5rem;"></i> McMurray</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <ul style="list-style: none; text-align: center;">
+                            <li style="padding: 0.5rem 0;"><i class="fas fa-check" style="color: var(--primary-color); margin-right: 0.5rem;"></i> Baldwin</li>
+                            <li style="padding: 0.5rem 0;"><i class="fas fa-check" style="color: var(--primary-color); margin-right: 0.5rem;"></i> Whitehall</li>
+                            <li style="padding: 0.5rem 0;"><i class="fas fa-check" style="color: var(--primary-color); margin-right: 0.5rem;"></i> Surrounding Areas</li>
+                        </ul>
+                    </div>
+                </div>
+                <p style="margin-top: 2rem; color: var(--text-light);">Don't see your area listed? Give us a call - we may still service your location!</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>M and S Tree Care</h3>
+                    <p>Professional tree care services in Pittsburgh and surrounding areas. Your trusted local tree experts, available 24/7.</p>
+                    <div class="footer-social">
+                        <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="gallery.html">Our Work</a></li>
+                        <li><a href="testimonials.html">Reviews (151)</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>Our Services</h3>
+                    <ul>
+                        <li><a href="services.html#tree-removal">Tree Removal</a></li>
+                        <li><a href="services.html#tree-trimming">Tree Trimming</a></li>
+                        <li><a href="services.html#stump-grinding">Stump Grinding</a></li>
+                        <li><a href="services.html#emergency">Emergency Services</a></li>
+                        <li><a href="services.html#commercial">Commercial Services</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>Contact Info</h3>
+                    <ul class="contact-info">
+                        <li>
+                            <i class="fas fa-phone"></i>
+                            <a href="tel:+14126891966">(412) 689-1966</a>
+                        </li>
+                        <li>
+                            <i class="fas fa-map-marker-alt"></i>
+                            5680 Koeffler Dr, Pittsburgh, PA 15236
+                        </li>
+                        <li>
+                            <i class="fas fa-clock"></i>
+                            Available 24/7
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2025 M and S Tree Care. All rights reserved. | Serving Pittsburgh, PA and surrounding areas</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

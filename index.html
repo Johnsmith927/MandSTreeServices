@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="M and S Tree Care - Professional tree removal, trimming, and stump grinding in Pittsburgh, PA. Family-operated with 5.0 rating. Available 24/7. Call (412) 689-1966.">
+    <title>M and S Tree Care | Pittsburgh Tree Removal & Trimming | 5.0 Rating</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="site-header">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <h1><a href="index.html">M and S Tree Care</a></h1>
+                    <p class="tagline">Pittsburgh Tree Service Since 2015</p>
+                </div>
+                <button class="menu-toggle" onclick="toggleMenu()" aria-label="Toggle menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+                <nav class="main-nav">
+                    <ul id="nav-menu">
+                        <li><a href="index.html" class="active">Home</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="gallery.html">Our Work</a></li>
+                        <li><a href="testimonials.html">Reviews (151)</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section with Slideshow -->
+    <section class="hero-slideshow">
+        <div class="slideshow-container">
+            <div class="slide fade">
+                <img src="images/man-top-of-tree.jpg" alt="Professional tree removal">
+                <div class="hero-overlay"></div>
+            </div>
+            <div class="slide fade">
+                <img src="images/two-men-in-tree.jpg" alt="Tree trimming experts">
+                <div class="hero-overlay"></div>
+            </div>
+            <div class="slide fade">
+                <img src="images/equipment.jpg" alt="Professional equipment">
+                <div class="hero-overlay"></div>
+            </div>
+        </div>
+        
+        <div class="hero-content">
+            <div class="container">
+                <h1 class="hero-title">Pittsburgh Area Tree Removal & Trimming</h1>
+                <p class="hero-subtitle">Professional Tree Care - Available 24/7 - 5.0 Rating with 151 Reviews</p>
+                <div class="hero-buttons">
+                    <a href="contact.html" class="btn btn-primary btn-large">
+                        <i class="fas fa-calendar-alt"></i>
+                        Get Free Estimate
+                    </a>
+                    <a href="tel:+14126891966" class="btn btn-secondary btn-large">
+                        <i class="fas fa-phone"></i>
+                        (412) 689-1966
+                    </a>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Slideshow dots -->
+        <div class="slideshow-dots">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section style="padding: 5rem 0; background: white;">
+        <div class="container">
+            <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 4rem; align-items: center;">
+                <div class="slideshow-photos">
+                    <div class="about-slide">
+                        <img src="images/large-tree-trunks-ground.jpg" alt="Large tree removal" style="width: 100%; height: 450px; object-fit: cover; border-radius: 8px;">
+                    </div>
+                    <div class="about-slide">
+                        <img src="images/man-in-tree-with-crane.jpg" alt="Professional equipment" style="width: 100%; height: 450px; object-fit: cover; border-radius: 8px;">
+                    </div>
+                    <div class="about-slide">
+                        <img src="images/tree-removed-logs.jpg" alt="Tree removal complete" style="width: 100%; height: 450px; object-fit: cover; border-radius: 8px;">
+                    </div>
+                </div>
+                
+                <div>
+                    <h2 style="font-size: 2.5rem; color: var(--primary-color); margin-bottom: 1.5rem; font-weight: 700;">M and S Tree Care</h2>
+                    <p style="font-size: 1.15rem; line-height: 1.8; margin-bottom: 1.5rem; color: var(--text-dark);">
+                        We are a family-operated tree service company serving Pittsburgh and surrounding areas. Owner Nick and his experienced crew have built a reputation for quality work, fair pricing, and exceptional customer service.
+                    </p>
+                    <p style="font-size: 1.15rem; line-height: 1.8; margin-bottom: 1.5rem; color: var(--text-dark);">
+                        Our mission is simple: provide professional tree care with honesty and integrity. We do this because we love what we do, and our entire team is passionate about keeping your property safe and beautiful.
+                    </p>
+                    <p style="font-size: 1.15rem; line-height: 1.8; margin-bottom: 2rem; color: var(--text-dark);">
+                        With a perfect 5.0 rating across 151 customer reviews, we're Pittsburgh's trusted choice for tree removal, trimming, and emergency services.
+                    </p>
+                    
+                    <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 2rem; margin-top: 2rem;">
+                        <div>
+                            <div style="font-size: 3rem; font-weight: 700; color: var(--secondary-color); margin-bottom: 0.5rem;">5.0★</div>
+                            <div style="font-weight: 600; color: var(--text-dark);">Perfect Rating</div>
+                            <div style="color: var(--text-light); font-size: 0.95rem;">151 Reviews</div>
+                        </div>
+                        <div>
+                            <div style="font-size: 3rem; font-weight: 700; color: var(--primary-color); margin-bottom: 0.5rem;">24/7</div>
+                            <div style="font-weight: 600; color: var(--text-dark);">Always Available</div>
+                            <div style="color: var(--text-light); font-size: 0.95rem;">Emergency Service</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section style="padding: 5rem 0; background: var(--background-light);">
+        <div class="container">
+            <div class="section-header">
+                <h2>What We Do</h2>
+                <p class="section-subtitle">Professional tree services for residential and commercial properties</p>
+            </div>
+            
+            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(350px, 1fr)); gap: 2.5rem;">
+                <!-- Service 1 -->
+                <div class="service-box">
+                    <img src="images/half-tree-front-house.jpg" alt="Tree removal" style="width: 100%; height: 250px; object-fit: cover;">
+                    <div style="padding: 2rem;">
+                        <h3 style="font-size: 1.75rem; color: var(--primary-color); margin-bottom: 1rem; font-weight: 600;">Tree Removal</h3>
+                        <p style="line-height: 1.8; margin-bottom: 1.5rem; color: var(--text-dark);">
+                            Safe removal of trees of any size. We handle everything from small backyard trees to massive specimens near houses and power lines. Using professional rigging, cranes when needed, and expert climbers.
+                        </p>
+                        <ul style="list-style: none; padding: 0;">
+                            <li style="padding: 0.5rem 0; display: flex; align-items: start; gap: 0.75rem;">
+                                <i class="fas fa-check" style="color: var(--primary-color); margin-top: 0.25rem;"></i>
+                                <span>Trees threatening homes or structures</span>
+                            </li>
+                            <li style="padding: 0.5rem 0; display: flex; align-items: start; gap: 0.75rem;">
+                                <i class="fas fa-check" style="color: var(--primary-color); margin-top: 0.25rem;"></i>
+                                <span>Storm-damaged and fallen trees</span>
+                            </li>
+                            <li style="padding: 0.5rem 0; display: flex; align-items: start; gap: 0.75rem;">
+                                <i class="fas fa-check" style="color: var(--primary-color); margin-top: 0.25rem;"></i>
+                                <span>Dead, dying, or diseased trees</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Service 2 -->
+                <div class="service-box">
+                    <img src="images/man-in-tree-thumbs-up.jpg" alt="Tree trimming" style="width: 100%; height: 250px; object-fit: cover;">
+                    <div style="padding: 2rem;">
+                        <h3 style="font-size: 1.75rem; color: var(--primary-color); margin-bottom: 1rem; font-weight: 600;">Tree Trimming & Pruning</h3>
+                        <p style="line-height: 1.8; margin-bottom: 1.5rem; color: var(--text-dark);">
+                            Expert trimming to keep your trees healthy and your property safe. We carefully remove branches around power lines, roofs, and other structures. Our climbers work safely at any height.
+                        </p>
+                        <ul style="list-style: none; padding: 0;">
+                            <li style="padding: 0.5rem 0; display: flex; align-items: start; gap: 0.75rem;">
+                                <i class="fas fa-check" style="color: var(--primary-color); margin-top: 0.25rem;"></i>
+                                <span>Branches over roofs and structures</span>
+                            </li>
+                            <li style="padding: 0.5rem 0; display: flex; align-items: start; gap: 0.75rem;">
+                                <i class="fas fa-check" style="color: var(--primary-color); margin-top: 0.25rem;"></i>
+                                <span>Power line clearance</span>
+                            </li>
+                            <li style="padding: 0.5rem 0; display: flex; align-items: start; gap: 0.75rem;">
+                                <i class="fas fa-check" style="color: var(--primary-color); margin-top: 0.25rem;"></i>
+                                <span>Crown reduction and shaping</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Service 3 -->
+                <div class="service-box">
+                    <img src="images/smaller-logs-ground.jpg" alt="Stump grinding" style="width: 100%; height: 250px; object-fit: cover;">
+                    <div style="padding: 2rem;">
+                        <h3 style="font-size: 1.75rem; color: var(--primary-color); margin-bottom: 1rem; font-weight: 600;">Stump Grinding</h3>
+                        <p style="line-height: 1.8; margin-bottom: 1.5rem; color: var(--text-dark);">
+                            Complete stump removal to ground level and below. We grind stumps of any size, clean up all wood chips, and leave your yard ready for grass seed or new landscaping.
+                        </p>
+                        <ul style="list-style: none; padding: 0;">
+                            <li style="padding: 0.5rem 0; display: flex; align-items: start; gap: 0.75rem;">
+                                <i class="fas fa-check" style="color: var(--primary-color); margin-top: 0.25rem;"></i>
+                                <span>Stumps ground below surface</span>
+                            </li>
+                            <li style="padding: 0.5rem 0; display: flex; align-items: start; gap: 0.75rem;">
+                                <i class="fas fa-check" style="color: var(--primary-color); margin-top: 0.25rem;"></i>
+                                <span>Complete cleanup included</span>
+                            </li>
+                            <li style="padding: 0.5rem 0; display: flex; align-items: start; gap: 0.75rem;">
+                                <i class="fas fa-check" style="color: var(--primary-color); margin-top: 0.25rem;"></i>
+                                <span>Ready for new landscaping</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Choose Us -->
+    <section style="padding: 5rem 0; background: white;">
+        <div class="container">
+            <div class="section-header">
+                <h2>Why Customers Choose M and S Tree Care</h2>
+            </div>
+            
+            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 2.5rem; max-width: 1000px; margin: 0 auto;">
+                <div style="text-align: center;">
+                    <div style="width: 80px; height: 80px; margin: 0 auto 1.5rem; background: var(--primary-color); border-radius: 50%; display: flex; align-items: center; justify-content: center;">
+                        <i class="fas fa-dollar-sign" style="font-size: 2rem; color: white;"></i>
+                    </div>
+                    <h3 style="font-size: 1.3rem; margin-bottom: 1rem; color: var(--primary-color);">Fair & Competitive Pricing</h3>
+                    <p style="line-height: 1.7; color: var(--text-dark);">Honest quotes with no hidden fees. You'll know the exact cost before we start.</p>
+                </div>
+
+                <div style="text-align: center;">
+                    <div style="width: 80px; height: 80px; margin: 0 auto 1.5rem; background: var(--primary-color); border-radius: 50%; display: flex; align-items: center; justify-content: center;">
+                        <i class="fas fa-users" style="font-size: 2rem; color: white;"></i>
+                    </div>
+                    <h3 style="font-size: 1.3rem; margin-bottom: 1rem; color: var(--primary-color);">Experienced Crew</h3>
+                    <p style="line-height: 1.7; color: var(--text-dark);">Professional team that works like a well-oiled machine. Fast, efficient, and safe.</p>
+                </div>
+
+                <div style="text-align: center;">
+                    <div style="width: 80px; height: 80px; margin: 0 auto 1.5rem; background: var(--primary-color); border-radius: 50%; display: flex; align-items: center; justify-content: center;">
+                        <i class="fas fa-broom" style="font-size: 2rem; color: white;"></i>
+                    </div>
+                    <h3 style="font-size: 1.3rem; margin-bottom: 1rem; color: var(--primary-color);">Complete Cleanup</h3>
+                    <p style="line-height: 1.7; color: var(--text-dark);">We leave your property cleaner than we found it. All debris removed and hauled away.</p>
+                </div>
+
+                <div style="text-align: center;">
+                    <div style="width: 80px; height: 80px; margin: 0 auto 1.5rem; background: var(--primary-color); border-radius: 50%; display: flex; align-items: center; justify-content: center;">
+                        <i class="fas fa-shield-alt" style="font-size: 2rem; color: white;"></i>
+                    </div>
+                    <h3 style="font-size: 1.3rem; margin-bottom: 1rem; color: var(--primary-color);">Fully Insured</h3>
+                    <p style="line-height: 1.7; color: var(--text-dark);">Complete liability coverage for your peace of mind and property protection.</p>
+                </div>
+
+                <div style="text-align: center;">
+                    <div style="width: 80px; height: 80px; margin: 0 auto 1.5rem; background: var(--primary-color); border-radius: 50%; display: flex; align-items: center; justify-content: center;">
+                        <i class="fas fa-clock" style="font-size: 2rem; color: white;"></i>
+                    </div>
+                    <h3 style="font-size: 1.3rem; margin-bottom: 1rem; color: var(--primary-color);">24/7 Emergency Service</h3>
+                    <p style="line-height: 1.7; color: var(--text-dark);">Storm damage? We're available around the clock for emergencies.</p>
+                </div>
+
+                <div style="text-align: center;">
+                    <div style="width: 80px; height: 80px; margin: 0 auto 1.5rem; background: var(--primary-color); border-radius: 50%; display: flex; align-items: center; justify-content: center;">
+                        <i class="fas fa-star" style="font-size: 2rem; color: white;"></i>
+                    </div>
+                    <h3 style="font-size: 1.3rem; margin-bottom: 1rem; color: var(--primary-color);">5.0 Star Rating</h3>
+                    <p style="line-height: 1.7; color: var(--text-dark);">Perfect rating across 151 reviews. See what customers say about us!</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Our Work Gallery Preview -->
+    <section style="padding: 5rem 0; background: var(--background-light);">
+        <div class="container">
+            <div class="section-header">
+                <h2>Our Work</h2>
+                <p class="section-subtitle">Real projects from Pittsburgh area customers</p>
+            </div>
+            
+            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 1.5rem; margin-bottom: 3rem;">
+                <div style="position: relative; overflow: hidden; border-radius: 8px; box-shadow: 0 4px 15px rgba(0,0,0,0.1);">
+                    <img src="images/landscape-before-tree.jpg" alt="Before tree removal" style="width: 100%; height: 300px; object-fit: cover; display: block;">
+                </div>
+                <div style="position: relative; overflow: hidden; border-radius: 8px; box-shadow: 0 4px 15px rgba(0,0,0,0.1);">
+                    <img src="images/landscape-after-tree.jpg" alt="After tree removal" style="width: 100%; height: 300px; object-fit: cover; display: block;">
+                </div>
+                <div style="position: relative; overflow: hidden; border-radius: 8px; box-shadow: 0 4px 15px rgba(0,0,0,0.1);">
+                    <img src="images/man-chainsaw-tree-equipment.jpg" alt="Professional tree work" style="width: 100%; height: 300px; object-fit: cover; display: block;">
+                </div>
+                <div style="position: relative; overflow: hidden; border-radius: 8px; box-shadow: 0 4px 15px rgba(0,0,0,0.1);">
+                    <img src="images/machinery-on-driveway.jpg" alt="Professional equipment" style="width: 100%; height: 300px; object-fit: cover; display: block;">
+                </div>
+                <div style="position: relative; overflow: hidden; border-radius: 8px; box-shadow: 0 4px 15px rgba(0,0,0,0.1);">
+                    <img src="images/branches-front-lawn-chipper.jpg" alt="Tree service in progress" style="width: 100%; height: 300px; object-fit: cover; display: block;">
+                </div>
+                <div style="position: relative; overflow: hidden; border-radius: 8px; box-shadow: 0 4px 15px rgba(0,0,0,0.1);">
+                    <img src="images/grass-clean-after.jpg" alt="Complete cleanup" style="width: 100%; height: 300px; object-fit: cover; display: block;">
+                </div>
+            </div>
+            
+            <div style="text-align: center;">
+                <a href="gallery.html" class="btn btn-primary btn-large">
+                    <i class="fas fa-images"></i>
+                    View Full Gallery
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section">
+        <div class="container">
+            <div class="cta-content">
+                <h2>Ready for Professional Tree Service?</h2>
+                <p>Get your free estimate today - available 24/7 for emergencies</p>
+                <div class="cta-buttons">
+                    <a href="contact.html" class="btn btn-primary btn-large">
+                        <i class="fas fa-calendar-alt"></i>
+                        Get Your Free Estimate
+                    </a>
+                    <a href="tel:+14126891966" class="btn btn-secondary btn-large">
+                        <i class="fas fa-phone"></i>
+                        Call (412) 689-1966
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>M and S Tree Care</h3>
+                    <p>Family-operated tree service in Pittsburgh and surrounding areas. Professional tree care with honesty and integrity.</p>
+                    <div class="footer-social">
+                        <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" aria-label="Google"><i class="fab fa-google"></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>Services</h3>
+                    <ul>
+                        <li><a href="services.html">Tree Removal</a></li>
+                        <li><a href="services.html">Tree Trimming & Pruning</a></li>
+                        <li><a href="services.html">Stump Grinding</a></li>
+                        <li><a href="services.html">Emergency Services</a></li>
+                        <li><a href="services.html">Commercial Services</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>Contact Info</h3>
+                    <ul class="contact-info">
+                        <li>
+                            <i class="fas fa-phone"></i>
+                            <a href="tel:+14126891966">(412) 689-1966</a>
+                        </li>
+                        <li>
+                            <i class="fas fa-map-marker-alt"></i>
+                            5680 Koeffler Dr<br>Pittsburgh, PA 15236
+                        </li>
+                        <li>
+                            <i class="fas fa-clock"></i>
+                            Available 24/7
+                        </li>
+                        <li>
+                            <i class="fas fa-star"></i>
+                            5.0 Rating - 151 Reviews
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2025 M and S Tree Care. All rights reserved. | Serving Pittsburgh, PA and surrounding areas</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
